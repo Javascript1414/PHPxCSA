@@ -63,10 +63,10 @@ array("51","Sribas","DCS","WB"),
 array("52","Rinku","CSA","up")
         );
         $record=isset($_GET['record'])?$_GET['record']:1;
-        $ppage=2;
-        $tp=ceil(count($soumo)/$ppage);
-        $sribas=($record-1)* $ppage;
-        $Gobind=array_slice($soumo,$sribas,$ppage);
+        $perpage=3;
+        $tp=ceil(count($soumo)/$perpage);
+        $sribas=($record-1)* $perpage;
+        $Gobind=array_slice($soumo,$sribas,$perpage);
         ?>
         <table border="5">
             <tr>
