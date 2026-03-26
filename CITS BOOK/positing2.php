@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h3>Popover Postitin2</h3>
+        <h3>Popover Postition</h3>
         <p>keep Mouse pointer oh the right links to see the popover in action:</p>
         <a href="#" title="Header" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Hare Krishna">Top</a>
         <a href="#" title="Header" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Krishna Krishna">Bottom</a>
